@@ -9,7 +9,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 project(advent LANGUAGES CXX)
 
-add_subdirectory(src_day5)
+add_subdirectory(src_day11)
 
 set_target_properties(advent PROPERTIES
                       RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin
